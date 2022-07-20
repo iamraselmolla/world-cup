@@ -157,3 +157,55 @@ footer .footer-upper-part{
 footer .footer-menu-part{
     padding-top: 25px;
 }
+
+/************************************** Match schedule page css  */
+.schedules.grid-3{
+    flex:auto;
+}
+.schedule-content aside{
+    flex: 0 0 300px;
+}
+.schedule-content a.bg-white {
+    background: #ffffff;
+    color: #000;
+    font-weight: 700;
+}
+
+.schedule-content a.button {
+    display: block;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.schedule.flex{
+    flex-direction: column;
+}
+.schedule-teams.flex{
+    justify-content: space-evenly;
+}
+.schedule-time-content.flex{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.schedule p.schedule-time{
+    color: #4D4D4D;
+}
+.schedule-team-name{
+    margin-bottom: 0;
+}
+.schedule-time{
+    margin-top: 0;
+}
+.schedule{
+    border: solid 2px #e8e8e8;
+    padding: 35px 10px 35px 10px;
+    border-radius: 10px;
+}
+.vs{
+    font-size: 16px;
+    font-weight: 700;
+}
+.schedule.flex img{
+    max-width: 100px;
+}
