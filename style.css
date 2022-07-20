@@ -1,7 +1,8 @@
-/* Google font */
+/******************************************* Google font *******************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
 
-/* Common CSS*/
+/******************************************* Common CSS *******************************************/
+
 body{
     margin: 0;
     padding: 0;
@@ -72,7 +73,9 @@ body{
     text-decoration: none;
     display: inline-block;
 }
-/* Banner CSS */
+
+/******************************************* Banner CSS *******************************************/
+
 
 .banner .banner_headline{
     font-size: 5em;
@@ -104,11 +107,8 @@ body{
   }
   
 
+/******************************************* Match blog *******************************************/
 
-
-
-
-/* Match blog */
 
 .blog-content aside{
     flex: 0 0 300px;
@@ -165,7 +165,8 @@ body{
 }
 
 
-/* Footer */
+/******************************************* Footer *******************************************/
+
 footer a{
     text-decoration: none;
     color: #fff;
@@ -193,7 +194,8 @@ footer .footer-menu-part{
     line-height: 30px;
 
 }
-/************************************** Match schedule page css  */
+/******************************************* Mtacg Schedule page css *******************************************/
+
 .schedules.grid-3{
     flex:auto;
 }
@@ -246,7 +248,8 @@ footer .footer-menu-part{
 }
 
 
-/* Responsive CSS */
+/******************************************* Responsive CSS *******************************************/
+
 .view-all-btn{
     display: none;
     text-decoration: none;
