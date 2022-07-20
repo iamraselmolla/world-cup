@@ -1,0 +1,112 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+/* Common CSS*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+    justify-content: center;
+}
+.bg-black{
+    background: #161616;
+}
+.white_color{
+    color: #ffffff;
+}
+
+.img-responsive{
+    max-width: 100%;
+}
+.py-50{
+    padding: 50px 0;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.br-30{
+    border-radius: 30px;
+}
+.button{
+    padding:15px 25px ;
+    background: #DD0000;
+    color: #ffffff;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* Banner CSS */
+
+.banner .banner_headline{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.banner{
+    padding: 20px 50px 0 50px;
+}
+.banner a.button i{
+    margin-left: 8px;
+}
+
+
+/* Match blog */
+
+.blog-content aside{
+    flex: 0 0 300px;
+}
+.blog-content .matcg-blogs{
+    flex: 0 10px auto;
+}
+.match-blog{
+    border-radius: 3px;;
+}
+.match-blog a.button{
+    display: block;
+}
+.transfer-button{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: solid 1px #000;
+    background: transparent;
+    margin-top: 10px;
+
+}
+.transfer-news{
+    border: solid 2px #e8e8e8;
+    margin-top: -8px;
+    padding: 10px;
+
+}
+.transfer-news h3{
+    font-size: 18px;
+    line-height: 27px;
+}
