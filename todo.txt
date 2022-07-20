@@ -1,7 +1,5 @@
 Bonus Marks
 
-1. googole font using///
-2. display a view all button in tablet size
+
+
 3. have to use a transition in header
-4. commenting code file
-5. have to add social icon in footer
