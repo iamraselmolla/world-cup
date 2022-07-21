@@ -114,8 +114,12 @@ body{
     animation-iteration-count: infinite;
 }
 
-  
-
+.banner .banner_img{
+   transition: all linear 0.5s
+}
+.banner:hover .banner_img img{
+    transform: scale(0.8);
+}
 /******************************************* Match blog *******************************************/
 
 
